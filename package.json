@@ -1,0 +1,20 @@
+{
+  "name": "@origamicore/redis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": { 
+    "build": "npx tsc",
+    "sample": "node ./dist/sample/redisSample",
+    "publish": "npm publish"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.45",
+    "@origamicore/core": "^4.0.1",
+    "redis": "^4.0.0",
+    "typescript": "^4.7.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
